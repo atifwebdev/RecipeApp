@@ -2,7 +2,7 @@
 
 (async function () {
   // connect to json file
-  const response = await fetch("../json/recipes.json");
+  const response = await fetch("recipes.json");
   const recipes = await response.json();
   //console.log(recipes);
 
